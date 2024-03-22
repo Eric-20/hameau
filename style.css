@@ -12,6 +12,7 @@ html {
   font-optical-sizing: auto;
   font-style: normal;
   scroll-behavior: smooth;
+  transition: all linear 0.4s;
 }
 
 h1 {
@@ -26,13 +27,13 @@ h1 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 19px;
 }
 
 body {
   background-color: #101010;
   background-color: #fff1e6;
-  margin: 24px 40px;
+  margin: 0px 0px;
 }
 
 hr {
@@ -115,13 +116,24 @@ nav a:hover {
 /* header */
 
 /* main*/
+
 /* 01 hero-section */
 .hero-section {
   width: 100%;
-  height: 95vh;
-  border-radius: 24px;
-  background: linear-gradient(rgb(251, 133, 0, 0.3), rgba(30, 30, 30, 0.7)),
+  height: 100vh;
+  /* border-radius: 24px; */
+  background: linear-gradient(rgba(119, 66, 5, 0.8), rgba(30, 30, 30, 0.7)),
     url("./img/hero\ 2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-gallery-section {
+  width: 100%;
+  height: 95vh;
+  background: linear-gradient(rgb(251, 133, 0, 0.3), rgba(30, 30, 30, 0.7)),
+    url("./img/hero\ img.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -192,21 +204,42 @@ nav a:hover {
   transform: rotate(-2deg);
   transition: all linear 0.2s;
 }
+
+.path {
+  display: flex;
+  gap: 24px;
+}
+
+.path a {
+  background: none;
+  padding: 0px;
+  width: fit-content;
+}
+
+.path .active {
+  color: #fb8500;
+}
+
 /* 01 hero-section */
+
+.about-section,
+.causes-section,
+.partners {
+  padding: 100px 100px;
+}
 *
 /* about-section */
 .about-section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 100px 0px;
 }
 
 .about-flex-container {
   display: flex;
   gap: 80px;
   transform: scale(1);
-  margin-top: 80px;
+  margin-top: 40px;
 }
 /* about-section */
 
@@ -232,7 +265,8 @@ nav a:hover {
   gap: 24px;
   width: 50%;
   height: 272px;
-  border: 1px solid #d9d9d9;
+  border: 1px dashed #ffcece;
+  background-color: #fff1f1;
   border-radius: 24px;
   padding: 32px;
   color: #1e1e1e;
@@ -371,7 +405,6 @@ nav a:hover {
 .causes-section {
   display: flex;
   gap: 100px;
-  margin: 100px 0px;
 }
 
 .causes-section .video,
@@ -382,12 +415,12 @@ nav a:hover {
 .causes-section .content {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 16px;
   width: 40%;
 }
 
 .causes-section .content p {
-  font-size: 18px;
+  font-size: 19px;
 }
 
 .causes-section .content h1 {
@@ -445,7 +478,7 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 56px;
+  gap: 0px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -456,17 +489,57 @@ nav a:hover {
   width: 900px;
 }
 
+.partners-logos{
+  width: 100%;
+}
+
 .partners img {
-  width: 90%;
+  width: 100%;
 }
 /* partners */
+
+/*==================== gallery page======================= */
+
+/* gallery */
+
+.gallery {
+  width: 100%;
+  display: flex;
+  gap: 32px;
+}
+
+.gallery .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding: 100px;
+}
+
+.gallery .row div {
+  width: 32.05%;
+  height: 400px;
+}
+
+.gallery .row div img {
+  width: 100%;
+  border-radius: 24px;
+  transition: all linear 0.4s;
+}
+
+.gallery .row div img:hover {
+  border-radius: 24px;
+  transform: rotate(2deg);
+  transition: all linear 0.4s;
+}
+
+/* gallery */
 
 /* footer */
 .footer {
   background-color: #1e1e1e;
   width: 100%;
   height: 200px;
-  border-radius: 24px;
+  /* border-radius: 24px; */
   display: flex;
   align-items: center;
   justify-content: space-between;
