@@ -700,7 +700,7 @@ nav .active {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 25px;
+    gap: 40px;
     padding: 20px 20px;
   }
 
@@ -717,7 +717,7 @@ nav .active {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
   }
 
   header .right-nav {
@@ -749,12 +749,12 @@ nav .active {
   /* 01 hero-section */
   .hero-section {
     width: 100%;
-    height: 90vh;
+    height: 100vh;
   }
 
   .hero-gallery-section {
     width: 100%;
-    height: 90vh;
+    height: 80vh;
   }
 
   .hero-contact-section {
@@ -762,9 +762,13 @@ nav .active {
     height: 80vh;
   }
 
+  .hero-gallery-section .hero-content {
+    top: 55%;
+  }
+
   .hero-contact-section .hero-content {
-  top: 60%;
-}
+    top: 60%;
+  }
 
   .hero-section hr {
     color: #f7f7f7;
@@ -990,24 +994,24 @@ nav .active {
   /* gallery */
 
   /* contact section */
-.contact-section {
-  flex-direction: column;
-  gap: 16px;
-  padding: 40px;
-  width: 100%;
-}
+  .contact-section {
+    flex-direction: column;
+    gap: 16px;
+    padding: 40px;
+    width: 100%;
+  }
 
-.contact-section .info {
-  flex-direction: column;
-  width: 100%;
-}
+  .contact-section .info {
+    flex-direction: column;
+    width: 100%;
+  }
 
-.contact-section .info h1 {
-  font-size: 18px;
-  color: #fb8500;
-}
+  .contact-section .info h1 {
+    font-size: 18px;
+    color: #fb8500;
+  }
 
-/* contact section */
+  /* contact section */
 
   /* footer */
   .footer {
