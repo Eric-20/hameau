@@ -675,16 +675,19 @@ nav .active {
   /* html */
   h1 {
     font-size: 34px;
+    text-align: center;
   }
 
   .title {
     font-size: 32px;
+    text-align: center;
     margin-bottom: 20px;
   }
 
   p {
     font-size: 16px;
     line-height: 135%;
+    text-align: center;
   }
 
   hr {
@@ -727,6 +730,9 @@ nav .active {
   }
 
   header .right-nav a {
+    height: 60px;
+    display: flex;
+    align-items: center;
     padding: 18px 32px;
     border-radius: 10px;
     font-size: 14px;
@@ -821,7 +827,7 @@ nav .active {
   .about-section,
   .causes-section,
   .partners {
-    padding: 20px 20px;
+    padding: 40px 20px;
   }
 
   .about-section {
@@ -912,10 +918,11 @@ nav .active {
   .causes-section .content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 16px;
     width: 100%;
   }
-
   .causes-section .content p {
     font-size: 16px;
   }
