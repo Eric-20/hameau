@@ -107,12 +107,6 @@ header .right-nav a {
   transition: all linear 0.2s;
 }
 
-header .right-nav .language {
-  background: none;
-  background-color: rgb(251, 133, 0, 0.1);
-  border: 1px solid #f7f7f7;
-  display: flex;
-}
 
 header .right-nav a:hover {
   transform: translateY(-8%);
@@ -753,7 +747,7 @@ nav .active {
   }
 
   nav a {
-    font-size: 12px;
+    font-size: 12.5px;
   }
 
   nav .active {
@@ -768,7 +762,7 @@ nav .active {
 
   .hero-gallery-section {
     width: 100%;
-    height: 80vh;
+    height: 70vh;
   }
 
   .hero-contact-section {
@@ -777,11 +771,11 @@ nav .active {
   }
 
   .hero-gallery-section .hero-content {
-    top: 55%;
+    top: 20%;
   }
 
   .hero-contact-section .hero-content {
-    top: 60%;
+    top: 20%;
   }
 
   .hero-section hr {
@@ -879,6 +873,10 @@ nav .active {
     height: 220px;
     padding: 24px;
     color: #1e1e1e;
+  }
+
+  .two-cards .active {
+    color: #f7f7f7;
   }
 
   .card h1 {
@@ -1253,6 +1251,10 @@ nav .active {
     height: 220px;
     padding: 24px;
     color: #1e1e1e;
+  }
+
+  .two-cards .active {
+    color: #f7f7f7;
   }
 
   .card h1 {
@@ -1635,6 +1637,10 @@ nav .active {
     color: #1e1e1e;
   }
 
+  .two-cards .active {
+    color: #f7f7f7;
+  }
+
   .card h1 {
     color: #fb8500;
     font-size: 32px;
@@ -1912,7 +1918,7 @@ nav .active {
   }
 
   .hero-gallery-section .hero-content {
-    top: 40%;
+    top: 20%;
   }
 
   .hero-contact-section {
@@ -2019,6 +2025,10 @@ nav .active {
     height: 220px;
     padding: 24px;
     color: #1e1e1e;
+  }
+
+  .two-cards .active {
+    color: #f7f7f7;
   }
 
   .card h1 {
@@ -2288,6 +2298,10 @@ nav .active {
     display: flex;
     gap: 4px;
     align-items: center;
+  }
+
+  .two-cards .active {
+    color: #f7f7f7;
   }
 
   /* 01 hero-section */
